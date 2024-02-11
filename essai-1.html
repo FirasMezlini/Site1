@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="alert('passer une bonne journée')">
+    <script src="form.js"></script>  
+    <p>nom et prénom <input type="text" id="nom" onfocus="col_color(nom)" onblur="majus(nom)" onkeypress="message()"></p>
+    <p id="p1">c'est un paragraphe</p>
+    <p>age<input type="range" id="age" min="0" max="100" required onchange="document.getElementById('ager').innerHTML=document.getElementById('age').value"> <span id="ager">50</span></p>
+    <p id="wel" onmouseover="color(wel,'green')">bienvenue a notre site</p>
+    <p id="tc">ce texte change de couleur</p> <input type="button" value="blue" id="B1" onclick="color(tc,'blue')">
+    <p>adress <input type="text" id="adress" onkeyup="color(adress,'red')"></p>
+    <p>message <input type="text" id="ms" oninput="m1(ms1,ms)"></p>
+    <p id="ms1"></p>
+    <P>age <input type="text" id="b" onblur="age2(age1())"></P>
+    <p><input type="text" id="p"> <input type="button" id="B2" onclick="f11()" value="afficher"><input type="button" id="B3" onclick="f12()" value="pair"></p>
+    <p><input type="button" id="B4" onclick="f13()" value="racine carré"><input type="text" id="p2"></p>
+    <p><input type="button" id="B5" onclick="f14()" value="valeur absolue"><input type="text" id="p3"></p>
+    <p><input type="button" id="B6" onclick="f15()" value="saisir une chaine"><input type="text" id="p4"></p>
+    <p><input type="button" id="B7" onclick="f16()"  value="saisir un nombre"><input type="text" id="p5"><input type="text" id="p6"></p>
+    <p><input type="button" id="B8" onclick="f17()"  value="nombre aleatoire1"><input type="text" id="p7"></p>
+    <p><input type="button" id="B9" onclick="f18()"  value="nombre aleatoire2"><input type="text" id="p8"></p>
+    <p><input type="button" id="B10" onclick="f19()"  value="Afficher caractère"><input type="text" id="p9"></p>
+    <p><input type="button" id="B10" onclick="f20()"  value="Position première occurrence"><input type="text" id="p10"></p>
+    <p><input type="button" id="B10" onclick="f21()"  value="Position dernière occurrence"><input type="text" id="p11"></p>
+    <p><input type="button" id="B10" onclick="f22()"  value="Remplacer"></p>
+    <p><input type="button" id="B10" onclick="f23()"  value="Remplacer tous"></p>
+    <p><input type="button" id="B10" onclick="f24()"  value="Majuscule"></p>
+    <p><input type="button" id="B10" onclick="f25()"  value="Miniscule"><input type="text" id="p15"></p>
+    <p><input type="button" id="B10" onclick="f26()"  value="Supprimer espace"></p>
+    <p><input type="button" id="B10" onclick="f27()"  value="Sous chaine"><input type="text" id="p17"></p>
+    <p><input type="button" id="B10" onclick="f28()"  value="Code"><input type="text" id="p18"></p>
+    <p><input type="button" id="B10" onclick="f29()"  value="code2"><input type="text" id="p19"></p>
+    <p><input type="button" id="B10" onclick="f30()"  value="vérifier nombre"><input type="text" id="p20"></p>
+    <p><input type="button" id="B10" onclick="f31()"  value="convertir chaine en un nombre"><input type="text" id="p21"></p>
+    <p><input type="button" id="B10" onclick="f32()"  value="convertir chaine en un réel"><input type="text" id="p22"></p>
+    <p><input type="button" id="B10" onclick="f33()"  value="convertir chaine en un entier"><input type="text" id="p23"></p>
+    <p><input type="button" id="B10" onclick="f34()"  value="convertir nombre en une chaine"><input type="text" id="p24"></p>
+    <p><input type="button" id="B10" onclick="f35()"  value="Date aujourd’hui"><input type="text" id="p25"></p>
+    <p><input type="button" id="B10" onclick="f36()"  value="Afficher détail date aujourd’hui"><input type="text" id="p26"></p>
+    <p><input type="button" id="B10" onclick="f37()"  value="Nouvelle date"><input type="text" id="p27"></p>
+</body>
+</html>

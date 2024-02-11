@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Coordonnées</legend>
+        <form method="post" action="sauvegarde.html">
+        <p>civilité <input type="radio" value="A1" name="made">mademoiselle
+        <input type="radio" value="A2" name="mad">Madame
+    <input type="radio" value="A3" name="mon" checked>monsieur</p>
+    <p>Nom/Prénom <input type="text" name="nom" maxlength="20" minlength="5" size="20"></p>
+    <p>Adresse <textarea name="Adresse" id="Adresse" cols="20" rows="1">Rue no boite postale</textarea></p>
+    <p>code postal /localité/gouvernorat <input type="text" name="code_p" size="5"> <input type="text" name="localité" size="8" placeholder="manouba"> <select name="gouv" id="gouv"> <option value="manouba">manouba</option> <option value="jendouba">jendouba</option> <option value="tunis">tunis</option></select></p>
+    <p>Pays <select name="pays" id="pays"><option value="Tunisia">Tunisia</option><option value="Algeria">Algeria</option><option value="Albania">Albania</option> </select></p>
+    <p>Plateforme(s) <input type="checkbox" name="win">windows <input type="checkbox" name="mac">macintosh <input type="checkbox" name="linux">linux</p>
+    <p>application(s) <select name="app" id="app" multiple> <option value="APP1">bureautique</option> <option value="APP2">DAO</option> <option value="APP3">statistiques</option><option value="APP4">SGBD</option><option value="APP5">internet</option></select></p>
+    <p><input type="reset" value="effacer" name="B1">
+        <input type="submit" value="soumettre le formulaire" name="B2"></p>
+    </form>
+    
+</fieldset>
+</body>
+</html>

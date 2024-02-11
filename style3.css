@@ -1,0 +1,20 @@
+#titre1{
+    animation-name: anim1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes anim1 {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+
+}
+#pa1:hover{
+ color: red;
+}

@@ -1,0 +1,16 @@
+form{
+    border: 2px solid black;
+    background-color: lightblue;
+    width: 70vw;
+}
+.ex{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+
+    font-size: 1.5rem;
+
+}
